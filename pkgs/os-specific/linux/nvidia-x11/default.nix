@@ -23,7 +23,7 @@ rec {
   stable = if stdenv.hostPlatform.system == "x86_64-linux"
     then generic {
       version = "440.64";
-      sha256_64bit = "162gq6w44l8sgnn4qnl2rdlx8c008p04zv4c3i1ps20p21n1mjv1";
+      sha256_64bit = "0xbm1dh95kz8h4d62pql2wmvw2gbgc7iif2bkixbnqijl4dryg71";
       settingsSha256 = "0vxhmirqzyav5ljf0f04yk0az48ir5v0817dq9z9kyqfdvnby93g";
       persistencedSha256 = "0npjh7nashasydp8q6bbcp21w8fc1dycgjy50ics775hjnvm61qn";
     }
